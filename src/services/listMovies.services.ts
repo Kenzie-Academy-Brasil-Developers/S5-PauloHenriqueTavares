@@ -29,8 +29,6 @@ const listMoviesServices = async (payload: any) => {
       [sort]: order,
     },
   });
-
-  // const movies = allMovies.parse(findMovies);
   const movies: IRetriveMovies = {
     prevPage: prevPage,
     nextPage: nextPage,
